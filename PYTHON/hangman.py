@@ -18,3 +18,19 @@ def displayWord(word, guessedLetters):
         else:
             display += '_'
         return display.strip()
+
+# main function
+def playHangman():
+    word = chooseWord()
+    guessedLetters = []
+    attempts = 10
+
+    print ("Welcome to Hangman - Please guess a letter")
+
+
+# starting the game
+if __name__ == '__main__':
+    playHangman()
+
+
+
